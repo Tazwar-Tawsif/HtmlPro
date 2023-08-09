@@ -1,0 +1,47 @@
+
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    z-index: 9999;
+}
+.container{
+    width: 100%;
+}
+.nav-item{
+    
+    text-align: center;
+    color: #1A0506;
+}
+
+.nav-link.btn-try{
+    display: inline-block;
+    transition: 0.4s;
+    padding: 10px 20px!important;
+    border-radius: 10px;
+    color: white;
+    font-style: normal;
+    background-color: #365D7E;
+}
+
+.nav-link.btn-try:hover{
+    border: #365D7E;
+    background: #fff;
+}
+.collapse.navbar-collapse{
+    margin: 5px;
+    
+}
+.landing-page-1{
+    background-color: #F5F6F8;
+    width:fit-content;
+    margin-top:70px;
+}
+.main-title{
+    margin: 25px 0px 0px;
+    padding: 10px;
+}
+/* .cnv-banner-img{
+    height:450px;
+    width: 390px;
+} */
