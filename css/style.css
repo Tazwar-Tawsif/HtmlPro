@@ -33,40 +33,120 @@ body{
     color: #365D7E;
     border: #365D7E;
     background: #fff;
+    align-items: center;
 }
 .collapse.navbar-collapse{
     margin: 5px;
     
 }
-
+section{
+    width: fit-content;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
 .landing-page-1{
     background: transparent linear-gradient(245deg,#ebeef1,#fdfdfe) 0 0 no-repeat padding-box;
-    padding-top: 65px;
+    padding-top: 40px;
     width: fit-content;
     
 }
-section{
-    width: fit-content;
-    margin-top:35px ;
-}
+
 .main-title{
     text-align: justify;
     margin: 25px 0px 0px;
     padding: 10px;
 }
-.content{
-    display: inline;
+#content{
+    display: inline-flex;
     text-align: justify;
-    margin-left: 87px;
+    margin-left: 75px;
     padding: auto;
 }
-.img{
-    margin-left: 90px;
-    border: 40px solid;
+.centered-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    
+    border: 20px solid;
     border-color: #EDF0F3;
-    border-top-right-radius: 80px 80px;
-    border-bottom-left-radius: 80px 80px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 0px;
+}
+.centered-img.banner{
+    width: 500px;
+    height: 500px;
+    border: 10px solid;
+    border-color: #EDF0F3;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 0px;
 }
 .myHeader .navbar .nav-item a{
     color: black!important;
+}
+section .container .row .col .d-flex .img-fluid{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+.landing-page-5{
+    background:linear-gradient(90deg,#365d7e 0,#1db1b0);;
+    border-radius: 16px;
+    padding: 70px 0;
+    text-align: center;
+    color: white;
+
+}
+.landing-page-6 .row{
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+}
+.landing-page-6 .col-12 h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.landing-page-6 .col-12{
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+    margin-top: 20px;
+}
+.landing img{
+    max-width: 600px;
+    max-height: 345px;
+    border-radius: 15px;
+}
+.listbar{
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+}
+.hidden-panel {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.8s;
+    -moz-transition: max-height 0.8s;
+    transition: max-height 0.8s;
+}
+.show{
+    margin: 0 10px;
+    
+    max-height: 500px;
+    max-width: 400px;
+}
+.active{
+    font-weight: bold;
+    color: #2A5B77;
+}
+.border-b {
+    margin: 5px 0;
 }

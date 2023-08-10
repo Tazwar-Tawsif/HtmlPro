@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Convay</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -98,105 +101,172 @@
             <section class="landing-page-1 container-fluid">
                 <div class="container">
                     <div class="row">
-                        <div class="col col-md-6">
-                            <h1>
+                        <div class="col-md-6 col-sm-12">
+                            <h1 class='display-md-4' id="content">
                                 Video Conferencing
                                 <br>
                                 Redefined
                             </h1>
-                            <p>
+                            <p id="content">
                                 Convay is more than just a platform for video calls. It is the new collaborative
                                 masterpiece to support synchronized teamwork and communication.
                             <p>
-                                <a class="nav-link btn-try" href="#">Sign Up, It's Free</a>
-                            <p>No credit card required!</p>
+                                <a class="nav-link btn-try" id="content" href="#">Sign Up, It's Free</a>
+                            <p id="content">No credit card required!</p>
+                        </div>
+                        <!--Divides screen by 2 using 6 columns each for medium and larger screen-->
+                        <div class="col-md-6 col-sm-12">
+                            <!--This part Align image using CSS Flexbox-->
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <img class="centered-img banner img-fluid" src="img/dloads/cnv-banner-img.png">
+                            </div>
                         </div>
                     </div>
-                    <div class="col col-md-6">
-                        <img class="img img-fluid" src="img/dloads/cnv-banner-img.png">
-                    </div>
                 </div>
-        </div>
-        </section>
-        <section class="landing-page-2">
-            <div class="container">
-                <div class="row">
-                    <div class="float-end col col-lg-6 col-sm-12">
-                        <img class="img img-fluid" src="img/dloads/cnv-Collaborative.png">
-                    </div>
-                    <div class="col col-lg-6 col-sm-12">
-                        <div class="content">
-                            <h2>
+            </section>
+
+            <section class="landing-page-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <img class="centered-img img-fluid" src="img/dloads/cnv-Collaborative.png">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <h2 id="content">
                                 Collaborative
                                 <br>
                                 Virtual Meetings
                             </h2>
-                            <p>Say goodbye to island-like disconnected virtual meetings. Our Collaborative Video
+                            <p id="content">Say goodbye to island-like disconnected virtual meetings. Our Collaborative
+                                Video
                                 Conferencing System seamlessly connects before, during, and after meeting
                                 dependencies, ensuring important information and content are never lost again.
                             </p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="landing-page-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-lg-6 col-sm-12">
-                        <div class='content'>
-                            <h2>
+            </section>
+            <section class="landing-page-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <h2 id="content">
                                 Smooth Meeting
                                 <br>
                                 Performance For All
                             </h2>
-                            <p>Upgrade your virtual meetings experience with Convay. Our frictionless platform
+                            <p id="content">Upgrade your virtual meetings experience with Convay. Our frictionless
+                                platform
                                 eliminates common issues like delays, bandwidth issues and technical
                                 difficulties to make your online meetings effortless and productive.</p>
                         </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <img class='centered-img img-fluid' src="img/dloads/cnv-Smootg.png" alt="">
+                            </div>
+                        </div>
                     </div>
-                    <div class="col col-lg-6 col-sm-12">
-                        <img class='img img-fluid' src="img/dloads/cnv-Smootg.png" alt="">
+                </div>
+            </section>
+            <section class="landing-page-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <img class='centered-img img-fluid' src="img/dloads/cnv-Information.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <h2 id="content">
+                                Information
+                                <br>
+                                Security Uncompromised
+                            </h2>
+                            <p id="content">Your information security is our first priority. Our unique enterprise-grade
+                                security safeguards your data on Convay. End-to-end encryption, secure data storage,
+                                data
+                                residency and strict access controls keep your data safe.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="landing-page-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-lg-6 col-sm-12"></div>
-                    <div class="col col-lg-6 col-sm-12"></div>
+            </section>
+            <div class="landing-page-5">
+                <div class="container">
+                    <div class="signup-section text-center">
+                        <div class="row">
+                            <h2>
+                                Enhancing communication
+                                <br>
+                                across the globe
+                            </h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <a class="nav-link btn-try" href="#">Sign Up, It's Free</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
-        </section>
-        <section class="landing-page-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-lg-6 col-sm-12"></div>
-                    <div class="col col-lg-6 col-sm-12"></div>
+            <div class="landing-page-6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <b>
+                                <h2>
+                                    Simplify Your
+                                    <br>
+                                    Virtual Meeting Experience
+                                </h2>
+                            </b>
+                            <p>
+                                Effortlessly maintain meeting information, documents and actions from a
+                                single place for
+                                smooth collaboration with the team and all other meeting participants.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="title border-b">
+                                <div class="flex">
+                                    <div class="listbar">
+                                        <input id='radio-input' type="radio" name="list">
+                                        <label>Title Name</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-panel">
+                                <div class="subtitle border-b">
+                                    <p>
+                                        subtitle here
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <img class="img-fluid" src="img/dloads/Artboard–85.png" alt="">
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
-        </section>
-        <section class="landing-page-6">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-lg-6 col-sm-12"></div>
-                    <div class="col col-lg-6 col-sm-12"></div>
-                </div>
-            </div>
-        </section>
+        </div>
+    </div>
+
     </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
-        crossorigin="anonymous"></script> -->
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
+    <script src="data/data.js"></script>
+    <script src="data/main.js"></script>
 </body>
 
 </html>
